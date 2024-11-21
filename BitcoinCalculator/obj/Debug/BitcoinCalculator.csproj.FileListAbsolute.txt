@@ -1,0 +1,13 @@
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\bin\Debug\BitcoinCalculator.exe.config
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\bin\Debug\BitcoinCalculator.exe
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\bin\Debug\BitcoinCalculator.pdb
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\obj\Debug\BitcoinCalculator.csproj.AssemblyReference.cache
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\obj\Debug\BitcoinCalculator.Form1.resources
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\obj\Debug\BitcoinCalculator.Properties.Resources.resources
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\obj\Debug\BitcoinCalculator.csproj.GenerateResource.cache
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\obj\Debug\BitcoinCalculator.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\obj\Debug\BitcoinC.85CEABFA.Up2Date
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\obj\Debug\BitcoinCalculator.exe
+C:\Users\opilane\Source\Repos\MyLittleFirstEpicBitcoinCalculator\BitcoinCalculator\obj\Debug\BitcoinCalculator.pdb
