@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.currencyselector = new System.Windows.Forms.ComboBox();
-            this.arvutus = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.bitcoinamountinput = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.suva = new System.Windows.Forms.Label();
@@ -43,22 +43,23 @@
             this.currencyselector.Items.AddRange(new object[] {
             "EUR",
             "USD",
-            "EEK"});
+            "EEK",
+            "GBP"});
             this.currencyselector.Location = new System.Drawing.Point(607, 149);
             this.currencyselector.Name = "currencyselector";
             this.currencyselector.Size = new System.Drawing.Size(121, 21);
             this.currencyselector.TabIndex = 0;
             this.currencyselector.Text = "Vali Valuuta";
             // 
-            // arvutus
+            // button1
             // 
-            this.arvutus.Location = new System.Drawing.Point(607, 186);
-            this.arvutus.Name = "arvutus";
-            this.arvutus.Size = new System.Drawing.Size(121, 55);
-            this.arvutus.TabIndex = 1;
-            this.arvutus.Text = "Arvuta kurss";
-            this.arvutus.UseVisualStyleBackColor = true;
-            this.arvutus.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Location = new System.Drawing.Point(607, 186);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 55);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Arvuta kurss";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // bitcoinamountinput
             // 
@@ -112,7 +113,7 @@
             this.Controls.Add(this.suva);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bitcoinamountinput);
-            this.Controls.Add(this.arvutus);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.currencyselector);
             this.Name = "Form1";
             this.Text = "BitcoinCalculator";
@@ -124,7 +125,7 @@
         #endregion
 
         private System.Windows.Forms.ComboBox currencyselector;
-        private System.Windows.Forms.Button arvutus;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox bitcoinamountinput;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label suva;

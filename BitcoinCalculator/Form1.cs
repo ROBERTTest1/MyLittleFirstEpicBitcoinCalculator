@@ -24,13 +24,42 @@ namespace BitcoinCalculator
         {
             if (currencyselector.SelectedItem.ToString() == "EUR")
             {
-                arvutus.Visible = true;
+                button1.Visible = true;
                 suva.Visible = true;
                 BitcoinRates newbitcoinrate = GetRates();
                 float result = float.Parse(bitcoinamountinput.Text) * (float)newbitcoinrate.Bpi.EUR.rate_float;
                 tulemuslabel.Text = $"{result} Bitcoini {newbitcoinrate.Bpi.EUR.code}";
             }
+            if (currencyselector.SelectedItem.ToString() == "USD")
+            {
+                button1.Visible = true;
+                suva.Visible = true;
+                BitcoinRates newbitcoinrate = GetRates();
+                float result = float.Parse(bitcoinamountinput.Text) * (float)newbitcoinrate.Bpi.USD.rate_float;
+                tulemuslabel.Text = $"{result} Bitcoini {newbitcoinrate.Bpi.USD.code}";
+            }
+            if (currencyselector.SelectedItem.ToString() == "GBP")
+            {
+                button1.Visible = true;
+                suva.Visible = true;
+                BitcoinRates newbitcoinrate = GetRates();
+                float result = float.Parse(bitcoinamountinput.Text) * (float)newbitcoinrate.Bpi.GBP.rate_float;
+                tulemuslabel.Text = $"{result} Bitcoini {newbitcoinrate.Bpi.GBP.code}";
+            }
+            if (currencyselector.SelectedItem.ToString() == "EEK")
+            {
+                button1.Visible = true;
+                suva.Visible = true;
+                float bitcoinAmount = float.Parse(bitcoinamountinput.Text);
+                BitcoinRates newbitcoinrate = GetRates();
+                float eurAmount = bitcoinAmount * (float)newbitcoinrate.Bpi.EUR.rate_float;
+                const double eurToEekRate = 15.6466;
+                double eekAmount = eurAmount * eurToEekRate;
+
+                tulemuslabel.Text = $"{eekAmount} EEK";
+            }
         }
+
 
         public static BitcoinRates GetRates()
         {

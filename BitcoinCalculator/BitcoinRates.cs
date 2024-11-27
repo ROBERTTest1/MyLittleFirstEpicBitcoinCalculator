@@ -15,6 +15,7 @@ namespace BitcoinCalculator
         public USD USD { get; set; }
         public GBP GBP { get; set; }
         public EUR EUR { get; set; }
+        public object EEK { get; internal set; }
     }
 
     public class EUR
